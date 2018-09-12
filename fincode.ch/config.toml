@@ -1,0 +1,73 @@
+# Site settings
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Fincode Innovation AG | Core banking and fintech"
+theme = "hugo-smpl-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = ""
+
+[params]
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
+
+  # To provide more meta data for search engines feel free to add a few information.
+  # This lines will be inserted as meta tags.
+  name = "Your Name"
+  description = "Your Description"
+
+  # Background
+  [params.background]
+    image = "assets/img/bg.jpg"
+
+    # Enable and set background fade speed
+    [params.background.fade]
+      enable = true
+      speed = 500
+
+  # Logo section
+  [params.logo]
+    enable = false
+    image = "assets/img/logo.png"
+    alt = "Logo"
+    width = "100"
+
+  # Header section
+  [params.header]
+    enable = true
+    title = "Fincode Innovation AG<br>"
+
+  # Quote section
+  [params.quote]
+    enable = true
+    text = "Core Banking | Fintech | Digitalization | Innovation<p>Industriestrasse 47, 6300 Zug</p>"
+
+  # Social icons section
+  # Add a modifier class to increase size
+  # fa-lg, fa-2x, fa-3x, fa-4x, fa-5x
+  # e.g., icon = "fa-instagram fa-lg"
+  [params.social_icons]
+    enable = true
+
+  [[params.social]]
+    title = "Twitter"
+    icon = "fa-twitter"
+    link = "https://twitter.com/Fincode2"
+
+  [[params.social]]
+    title = "LinkedIn"
+    icon = "fa-linkedin"
+    link = ""
+
+  [[params.social]]
+    title = "Facebook"
+    icon = "fa-facebook"
+    link = "http://freelance.postach.io"
+
+  [[params.social]]
+    title = "Email"
+    icon = "fa-envelope"
+    link = "mailto:info@fincode.ch"
