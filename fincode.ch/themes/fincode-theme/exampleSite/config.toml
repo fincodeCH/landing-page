@@ -1,8 +1,8 @@
 # Site settings
 baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "Fincode Innovation AG | Core banking and fintech"
-theme = "fincode-theme"
+title = "BlackTie.co | Free Bootstrap Themes"
+theme = "hugo-smpl-theme"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 
 # Enter your tracking code to enable Google analytics
@@ -30,20 +30,20 @@ googleAnalytics = ""
 
   # Logo section
   [params.logo]
-    enable = false
+    enable = true
     image = "assets/img/logo.png"
-    alt = "Logo"
+    alt = "BlackTie.co"
     width = "100"
 
   # Header section
   [params.header]
     enable = true
-    title = "Fincode Innovation AG<br>"
+    title = "BlackTie.co<br>SMPL Theme."
 
   # Quote section
   [params.quote]
     enable = true
-    text = "Core Banking | Fintech | Digitalization | Innovation<p>Industriestrasse 47, 6300 Zug</p>"
+    text = "Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy."
 
   # Social icons section
   # Add a modifier class to increase size
@@ -53,21 +53,36 @@ googleAnalytics = ""
     enable = true
 
   [[params.social]]
+    title = "Dribbble"
+    icon = "fa-dribbble"
+    link = "http://dribbble.com/CarlosAlvarez"
+
+  [[params.social]]
     title = "Twitter"
     icon = "fa-twitter"
-    link = "https://twitter.com/Fincode2"
+    link = "http://twitter.com/BlackTie_co"
 
   [[params.social]]
-    title = "LinkedIn"
-    icon = "fa-linkedin"
-    link = ""
+    title = "Premium Themes"
+    icon = "fa-briefcase"
+    link = "https://wrapbootstrap.com/user/Basicoh"
 
   [[params.social]]
-    title = "Facebook"
-    icon = "fa-facebook"
+    title = "Free Themes"
+    icon = "fa-heart"
+    link = "http://BlackTie.co"
+
+  [[params.social]]
+    title = "Blog"
+    icon = "fa-comment"
     link = "http://freelance.postach.io"
 
   [[params.social]]
-    title = "Email"
+    title = "Email Me!"
     icon = "fa-envelope"
-    link = "mailto:info@fincode.ch"
+    link = "mailto:carlos@alvarez.is"
+
+  [[params.social]]
+    title = "Newsletter"
+    icon = "fa-coffee"
+    link = "http://eepurl.com/Eck_T"
