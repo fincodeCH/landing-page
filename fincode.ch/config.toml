@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://fincode.ch/"
 languageCode = "en-us"
 title = "Fincode Innovation AG | Core banking and fintech"
 theme = "fincode-theme"
@@ -60,12 +60,12 @@ googleAnalytics = ""
   [[params.social]]
     title = "LinkedIn"
     icon = "fa-linkedin"
-    link = ""
+    link = "https://linkedin.com/company/fincode-innovation"
 
   [[params.social]]
     title = "Facebook"
     icon = "fa-facebook"
-    link = "http://freelance.postach.io"
+    link = ""
 
   [[params.social]]
     title = "Email"
