@@ -16,12 +16,12 @@ googleAnalytics = ""
 
   # To provide more meta data for search engines feel free to add a few information.
   # This lines will be inserted as meta tags.
-  name = "Your Name"
-  description = "Your Description"
+  name = "Fincode Innovation AG"
+  description = "Fincode Innovation AG - Banking, digitalized."
 
   # Background
   [params.background]
-    image = "assets/img/bg.jpg"
+    image = "assets/img/bg12.jpg"
 
     # Enable and set background fade speed
     [params.background.fade]
@@ -30,20 +30,20 @@ googleAnalytics = ""
 
   # Logo section
   [params.logo]
-    enable = false
-    image = "assets/img/logo.png"
+    enable = true
+    image = "assets/img/logo_256px.png"
     alt = "Logo"
-    width = "100"
+    width = "256"
 
   # Header section
   [params.header]
     enable = true
-    title = "Fincode Innovation AG<br>"
+    title = "BANKING - DIGITALIZED.<br>"
 
   # Quote section
   [params.quote]
     enable = true
-    text = "Core Banking | Fintech | Digitalization | Innovation<p>Industriestrasse 47, 6300 Zug</p>"
+    text = "Core Banking | Fintech | Digitalization | Innovation<p>Industriestrasse 47, 6300 Zug<BR>SWITZERLAND</p>"
 
   # Social icons section
   # Add a modifier class to increase size
