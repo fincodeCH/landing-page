@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://fincode.ch/"
 languageCode = "en-us"
-title = "Fincode Innovation AG | Core banking and fintech"
+title = "Fincode Innovation AG | Core Banking and Fintech"
 theme = "fincode-theme"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 
@@ -17,22 +17,22 @@ googleAnalytics = ""
   # To provide more meta data for search engines feel free to add a few information.
   # This lines will be inserted as meta tags.
   name = "Fincode Innovation AG"
-  description = "Fincode Innovation AG - Banking, digitalized."
+  description = "Fincode Innovation AG - Core Banking | Fintech | Digitalization | Innovation - Technology consultancy based in Zug."
 
   # Background
   [params.background]
     image = "assets/img/bg12.jpg"
 
-    # Enable and set background fade speed
-    [params.background.fade]
-      enable = true
-      speed = 500
+  # Enable and set background fade speed
+  [params.background.fade]
+    enable = true
+    speed = 500
 
   # Logo section
   [params.logo]
     enable = true
-    image = "assets/img/logo_256px.png"
-    alt = "Logo"
+    image = "assets/img/logo.svg"
+    alt = "Fincode Innovation AG"
     width = "256"
 
   # Header section
