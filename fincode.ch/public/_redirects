@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://fincode.netlify.com/* https://www.fincode.ch/:splat 301!
